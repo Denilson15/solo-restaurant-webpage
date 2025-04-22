@@ -14,6 +14,13 @@ This project showcases a clean, mobile-first design suitable for a restaurant's 
 - A responsive menu layout displaying various food items
 - Interactive elements for user engagement
 
+## ⚙️ How It Works
+
+- Menu data is stored in a separate `data.js` file as an array of objects.
+- JavaScript reads the data and generates menu cards dynamically.
+- Layout uses CSS Grid and Flexbox for responsive design across sections.
+- Interactive elements like category filters can be added in future versions.
+
 ## 🛠️ Personalization
 
 Although the initial concept was provided by Scrimba, the following customizations were implemented:
