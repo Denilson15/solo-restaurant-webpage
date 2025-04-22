@@ -1,19 +1,47 @@
-# Getting Started
-Install the dependencies and run the project
-```
+# Solo Restaurant Webpage
+
+This is a custom-built restaurant landing page developed from scratch using **HTML**, **CSS**, and **JavaScript**. While the project idea was inspired by Scrimba’s Frontend Developer Career Path, the entire design and codebase were independently created to practice responsive layout and frontend development skills.
+
+> 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
+
+## ✨ Overview
+
+Live Demo: [https://restaurant-mock-webpage.netlify.app/](https://restaurant-mock-webpage.netlify.app/)
+
+This project showcases a clean, mobile-first design suitable for a restaurant's online presence. It includes:
+
+- A hero section with a featured dish and call-to-action
+- A responsive menu layout displaying various food items
+- Interactive elements for user engagement
+
+## 🛠️ Personalization
+
+Although the initial concept was provided by Scrimba, the following customizations were implemented:
+
+- Original HTML structure and CSS styling
+- Custom layout using Flexbox and Grid for responsiveness
+- JavaScript enhancements for interactivity
+
+## 🚧 Planned Updates
+
+- Expand layout for better desktop responsiveness
+- Add animations or hover effects for improved user experience
+- Explore performance optimizations
+
+## 🗂️ File Structure (basic)
+
+- `index.html` – Main HTML structure
+- `index.css` – Custom styles and layout
+- `index.js` – JavaScript for interactivity
+- `data.js` – Data for menu items
+- `vite.config.js` – Configuration for Vite
+
+## ⚙️ Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/Denilson15/solo-restaurant-webpage.git
+cd solo-restaurant-webpage
 npm install
-npm start
-```
-
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+npm run dev
